@@ -43,7 +43,74 @@ Specifically, we propose PromptSpeaker,
 <center><img src='fig/model.png' width=1200px></center>
 <br><br>
 
-<h2 id="abstract">2. Experimental Results<a name="abstract"></a></h2>
+
+<h2 id="abstract">2. Training Data<a name="abstract"></a></h2>
+
+<table>
+  <tbody>
+    <tr>
+        <td style="text-align: center; width: 100px;" rowspan=1><strong>Dataset<strong></td>
+        <td style="text-align: center; width: 100px;" rowspan=1><strong>Speaker Prompt<strong></td>
+        <td style="text-align: center; width: 100px;" rowspan=1><strong>Sample-1<strong></td>
+        <td style="text-align: center; width: 100px;" rowspan=1><strong>Sample-2<strong></td>
+    </tr>
+    <tr>
+        <td style="text-align: center; width: 100px;" rowspan=1><strong>Internal Stylistic<strong></td>
+        <td style="text-align: center; width: 100px;" rowspan=1><strong>我想要一个天真可爱，认真，正直，小男生的声音。(
+
+          I want a voice of an innocent, sincere, upright and little boy.)<strong></td>
+        <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/yichan-2019_1_3.wav"></audio></td>
+        <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/yichan-2019_1_4.wav"></audio></td>
+    </tr>
+    
+    <tr>
+      <td style="text-align: center; width: 100px;" rowspan=1><strong>Internal Stylistic<strong></td>
+      <td style="text-align: center; width: 100px;" rowspan=1><strong>我想要一个低沉、温柔、舒缓的女生的声音。(
+          I want a low, gentle and soothing voice of a woman.)<strong></td>
+      <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/danqing-xiaohua-0003.wav"></audio></td>
+      <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/danqing-xiaohua-0004.wav"></audio></td>
+  </tr>
+  
+    <tr>
+        <td style="text-align: center; width: 100px;" rowspan=1><strong>AISHELL-3<strong></td>
+        <td style="text-align: center; width: 100px;" rowspan=1><strong>给我一个成年女生的音色 (
+
+          Give me a voice of an adult female.)<strong></td>
+        <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/SSB0005_SSB00050001.wav"></audio></td>
+        <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/SSB0005_SSB00050002.wav"></audio></td>
+    </tr>
+    
+    <tr>
+      <td style="text-align: center; width: 100px;" rowspan=1><strong>AISHELL-3<strong></td>
+      <td style="text-align: center; width: 100px;" rowspan=1><strong>给我一个成年男生的音色 (
+
+        Give me a voice of an adult female.)<strong></td>
+      <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/SSB0073_SSB00730002.wav"></audio></td>
+      <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/SSB0073_SSB00730003.wav"></audio></td>
+  </tr>
+  
+  <tr>
+    <td style="text-align: center; width: 100px;" rowspan=1><strong>DiDiSpeech<strong></td>
+    <td style="text-align: center; width: 100px;" rowspan=1><strong>给我一个成年男生的音色 (
+
+      Give me a voice of an adult female.)<strong></td>
+    <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/00001293_00000001.wav"></audio></td>
+    <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/00001293_00000002.wav"></audio></td>
+</tr>
+
+<tr>
+  <td style="text-align: center; width: 100px;" rowspan=1><strong>DiDiSpeech<strong></td>
+  <td style="text-align: center; width: 100px;" rowspan=1><strong>给我一个成年女生的音色 (
+
+    Give me a voice of an adult female.)<strong></td>
+  <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/00001305_00000001.wav"></audio></td>
+  <td style="text-align: center"><audio style="width: 150px;" controls="" preload="none" src="sample/training_data/00001305_00000002.wav"></audio></td>
+</tr>
+    </tbody>
+  </table>
+
+
+<h2 id="abstract">3. Experimental Results<a name="abstract"></a></h2>
 
 <table>
   <tbody>
